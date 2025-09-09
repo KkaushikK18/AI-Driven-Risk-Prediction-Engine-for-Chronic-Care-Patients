@@ -18,11 +18,14 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 ## 📂 Project Structure
 
 📁 Chronic-Care-Risk-Engine/
+
 ├── 🏆 HACKATHON_DEMO/
 │ ├── MAIN_DASHBOARD.html # Demo-ready interactive dashboard
-│ ├── MAIN_ENGINE.py # Enhanced ML engine
+│ ├── MAIN_ENGINE.py # Enhanced ML 
 │ ├── PRESENTATION_GUIDE.md # Guide for presenting
 │ └── PROJECT_OVERVIEW.md # Project summary
+
+
 ├── 📁 src/
 │ ├── engines/ # ML engines (basic → advanced)
 │ │ ├── enhanced_chronic_risk_engine.py
@@ -35,15 +38,25 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 │ └── utils/ # Config & data loaders
 │ ├── config.py
 │ └── load_real_data.py
+
+
 ├── 📁 data/ # Data (not pushed to GitHub)
 │ ├── raw/ # MIMIC-IV raw data
 │ ├── processed/ # Preprocessed datasets
 │ └── results/ # Model outputs & plots
+
+
 ├── 📁 models/ # Saved trained models
+
+
 ├── 📁 docs/ # Documentation
+
+
 │ ├── README.md # This file
 │ ├── DASHBOARD_GUIDE.md
 │ └── CLEANUP_AND_RESTART_GUIDE.md
+
+
 ├── 📁 scripts/ # Utility scripts
 └── requirements.txt # Dependencies
 
@@ -57,10 +70,13 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 | **MIMIC-IV (100 pts, 275 admits)** | 0.99  | 0.99  | Excellent  | Small but high-quality ICU subset |
 | **Synthea (5000 pts)**             | 0.75  | 0.73  | Good       | Synthetic validation set          |
 
-Screenshot 2025-09-09 202957.png
+<img width="848" height="727" alt="Screenshot 2025-09-09 202957" src="https://github.com/user-attachments/assets/815005ad-9bb7-493b-953e-7ea5a895be33" />
 
-image.png
----
+
+<img width="399" height="433" alt="Screenshot 2025-09-09 234624" src="https://github.com/user-attachments/assets/4289ffe2-cdce-40b1-b5ad-f7f795674383" />
+
+
+
 
 ## 🧠 Features Used
 - **Demographics**: Age, gender  
@@ -69,9 +85,8 @@ image.png
 - **Comorbidities**: Diabetes, CKD, COPD, Heart Failure  
 - **Scores & derived metrics**: Charlson index, SOFA score, lab ratios, interaction terms  
 
-image.png
+<img width="930" height="577" alt="Screenshot 2025-09-09 234649" src="https://github.com/user-attachments/assets/ea5aa80e-d6bd-475a-8d39-a597ef987e0b" />
 
----
 
 ## 🛠️ How It Works
 
@@ -91,7 +106,8 @@ The dashboard lets clinicians:
 - View **real-time risk score updates**  
 - See **transparent explanations** for each prediction  
 
-image.png
+<img width="1564" height="920" alt="Screenshot 2025-09-09 234755" src="https://github.com/user-attachments/assets/1aba4580-5e51-4cad-95d2-197f3cbf8e0d" />
+
 
 ---
 
@@ -101,9 +117,11 @@ image.png
 - **Performance plots:** `comprehensive_model_evaluation.png`, `enhanced_synthea_model_results.png`  
 - **Feature importances:** `comprehensive_feature_importance.csv`  
 
-image.png
+<img width="751" height="542" alt="Screenshot 2025-09-09 234837" src="https://github.com/user-attachments/assets/007fa9ac-78a2-48e9-87b7-5b69420e8d87" />
 
-image.png
+
+<img width="1102" height="438" alt="Screenshot 2025-09-09 234905" src="https://github.com/user-attachments/assets/2290ee4a-b7b3-48ee-9d2e-19de85d3bc0f" />
+
 
 ---
 
