@@ -99,6 +99,9 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 
 <img width="7234" height="5370" alt="comprehensive_model_evaluation" src="https://github.com/user-attachments/assets/7b7f0b74-87f1-4463-b9de-ca2ef3ddc89c" />
 
+Triggers, 90D - Deterioration Label, Days to Event and Risk Score - 
+
+<img width="1645" height="911" alt="image" src="https://github.com/user-attachments/assets/fb49e7ff-d8ee-4e34-aaa8-b66acdd39a31" />
 
 
 
