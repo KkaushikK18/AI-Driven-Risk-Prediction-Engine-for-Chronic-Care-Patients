@@ -1,0 +1,46 @@
+Enhanced Chronic Risk Engine - Synthea Results (Improved)
+============================================================
+
+Model: Logistic Regression
+Generated: 2025-09-08 20:22:20
+
+Key Improvements Made:
+- Enhanced lab value extraction from actual Synthea observations
+- Realistic comorbidity detection using condition descriptions
+- Clinical score calculation (Charlson, SOFA, Elixhauser)
+- Improved deterioration label generation based on clinical factors
+- Proper vital signs and medication feature extraction
+- Stratified patient sampling for better representation
+
+Performance Metrics:
+  AUROC: 0.749
+  AUPRC: 0.732
+  Samples: 1500
+  Features: 94
+  Deterioration Rate: 42.1%
+
+Additional Metrics:
+  Sensitivity (Recall): 0.532
+  Specificity: 0.870
+  Positive Predictive Value: 0.748
+  Negative Predictive Value: 0.718
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.87      0.79       868
+           1       0.75      0.53      0.62       632
+
+    accuracy                           0.73      1500
+   macro avg       0.73      0.70      0.70      1500
+weighted avg       0.73      0.73      0.72      1500
+
+
+Confusion Matrix:
+[[755 113]
+ [296 336]]
+
+Expected AUROC Improvement:
+- Previous version: ~0.50 (random performance)
+- Enhanced version: 0.749
+- Improvement: 49.7% over random
