@@ -20,29 +20,47 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 📁 Chronic-Care-Risk-Engine/
 
 ├── 🏆 HACKATHON_DEMO/
+
 │ ├── MAIN_DASHBOARD.html # Demo-ready interactive dashboard
+
 │ ├── MAIN_ENGINE.py # Enhanced ML 
+
 │ ├── PRESENTATION_GUIDE.md # Guide for presenting
+
 │ └── PROJECT_OVERVIEW.md # Project summary
 
 
 ├── 📁 src/
+
 │ ├── engines/ # ML engines (basic → advanced)
+
 │ │ ├── enhanced_chronic_risk_engine.py
+
 │ │ ├── advanced_chronic_risk_engine.py
+
 │ │ └── chronic_risk_engine.py
+
 │ ├── dashboard/ # Dashboard implementations
+
 │ │ ├── static_dashboard.html
+
 │ │ ├── chronic_care_dashboard.py
+
 │ │ └── setup_dashboard.py
+
 │ └── utils/ # Config & data loaders
+
 │ ├── config.py
+
 │ └── load_real_data.py
 
 
 ├── 📁 data/ # Data (not pushed to GitHub)
+
 │ ├── raw/ # MIMIC-IV raw data
+
 │ ├── processed/ # Preprocessed datasets
+
 │ └── results/ # Model outputs & plots
 
 
@@ -53,11 +71,14 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 
 
 │ ├── README.md # This file
+
 │ ├── DASHBOARD_GUIDE.md
+
 │ └── CLEANUP_AND_RESTART_GUIDE.md
 
 
 ├── 📁 scripts/ # Utility scripts
+
 └── requirements.txt # Dependencies
 
 
@@ -76,6 +97,9 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 <img width="399" height="433" alt="Screenshot 2025-09-09 234624" src="https://github.com/user-attachments/assets/4289ffe2-cdce-40b1-b5ad-f7f795674383" />
 
 
+<img width="7234" height="5370" alt="comprehensive_model_evaluation" src="https://github.com/user-attachments/assets/7b7f0b74-87f1-4463-b9de-ca2ef3ddc89c" />
+
+
 
 
 ## 🧠 Features Used
@@ -86,6 +110,8 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 - **Scores & derived metrics**: Charlson index, SOFA score, lab ratios, interaction terms  
 
 <img width="930" height="577" alt="Screenshot 2025-09-09 234649" src="https://github.com/user-attachments/assets/ea5aa80e-d6bd-475a-8d39-a597ef987e0b" />
+
+
 
 
 ## 🛠️ How It Works
@@ -104,9 +130,16 @@ Built on **MIMIC-IV clinical data** and validated with **synthetic Synthea patie
 The dashboard lets clinicians:  
 - Adjust **age, labs, admissions, comorbidities**  
 - View **real-time risk score updates**  
-- See **transparent explanations** for each prediction  
+- See **transparent explanations** for each prediction
+
+<img width="1034" height="887" alt="image" src="https://github.com/user-attachments/assets/5b7ff842-7dad-4248-a09b-5329a858d3d3" />
+
 
 <img width="1564" height="920" alt="Screenshot 2025-09-09 234755" src="https://github.com/user-attachments/assets/1aba4580-5e51-4cad-95d2-197f3cbf8e0d" />
+
+
+<img width="1859" height="622" alt="image" src="https://github.com/user-attachments/assets/d07093a0-6f64-439c-9838-2935e0337813" />
+
 
 
 ---
@@ -123,6 +156,10 @@ The dashboard lets clinicians:
 <img width="1102" height="438" alt="Screenshot 2025-09-09 234905" src="https://github.com/user-attachments/assets/2290ee4a-b7b3-48ee-9d2e-19de85d3bc0f" />
 
 
+<img width="5970" height="4768" alt="enhanced_synthea_model_results" src="https://github.com/user-attachments/assets/8920421a-4ca8-40d9-bce0-cf9c73669d50" />
+
+
+
 ---
 
 ## ⚡ Impact
@@ -132,12 +169,6 @@ The dashboard lets clinicians:
 
 ---
 
-## ⚠️ Limitations
-- Small MIMIC-IV cohort (100 patients)  
-- Validation so far limited to synthetic patients  
-- ICU-focused; needs broader population testing  
-
----
 
 ## 🔮 Next Steps
 - Scale to larger, diverse real-world cohorts  
